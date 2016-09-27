@@ -1,0 +1,7 @@
+*.rar
+*.txt
+/Makefile*
+/Release
+/Debug
+!/bin/*.dll
+!/bin/*.exe

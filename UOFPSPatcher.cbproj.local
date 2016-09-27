@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013.12.22 15:54:12.454.cpp,C:\Users\Timur\Documents\RAD Studio\Projects\Unit1.cpp=D:\CPP\UOFPSPatcher\MainScript.cpp</Transaction>
+    <Transaction>2013.12.22 15:54:12.454.h,C:\Users\Timur\Documents\RAD Studio\Projects\Unit1.h=D:\CPP\UOFPSPatcher\MainScript.h</Transaction>
+    <Transaction>2013.12.22 15:54:12.454.dfm,C:\Users\Timur\Documents\RAD Studio\Projects\Unit1.dfm=D:\CPP\UOFPSPatcher\MainScript.dfm</Transaction>
+    <Transaction>2013.12.22 15:54:19.871.cbproj,C:\Users\Timur\Documents\RAD Studio\Projects\Project1.cbproj=D:\CPP\UOFPSPatcher\UOFPSPatcher.cbproj</Transaction>
+    <Transaction>2013.12.25 04:44:10.102.cpp,D:\CPP\UOFPSPatcher\Unit1.cpp=D:\CPP\UOFPSPatcher\HashClass.cpp</Transaction>
+    <Transaction>2013.12.25 04:44:10.102.h,D:\CPP\UOFPSPatcher\Unit1.h=D:\CPP\UOFPSPatcher\HashClass.h</Transaction>
+  </Transactions>
+</BorlandProject>
