@@ -165,7 +165,8 @@ void __fastcall TFPSPatcher::lb_client_listClick(TObject *Sender)
 					PROCESS_QUERY_INFORMATION |   // Required by Alpha
 					PROCESS_CREATE_THREAD     |   // For CreateRemoteThread
 					PROCESS_VM_OPERATION      |   // For VirtualAllocEx/VirtualFreeEx
-					PROCESS_VM_WRITE,             // For WriteProcessMemory
+					PROCESS_VM_WRITE          |   // For WriteProcessMemory
+					PROCESS_VM_READ,
 					FALSE, processID);
 
 				if (hProcess == NULL)
@@ -307,7 +308,7 @@ void __fastcall TFPSPatcher::lb_client_listClick(TObject *Sender)
 					if (hProcess != NULL)
 						CloseHandle(hProcess);
 
-					ShowMessage("Thrd error: " + IntToStr((int)GetLastError()));
+					//ShowMessage("Thrd error: " + IntToStr((int)GetLastError()));
 					MessageBox(Handle, "Remote thread can't be created.", "Error", MB_OK);
 
 					return;

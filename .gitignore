@@ -3,5 +3,6 @@
 /Makefile*
 /Release
 /Debug
+/__history
 !/bin/*.dll
 !/bin/*.exe
